@@ -17,10 +17,16 @@ import { DropdownModule } from 'primeng/dropdown';
 
 // PrimeNg Layout
 import { AppLayoutModule } from './layout/app.layout.module';
+import { CmsCardComponent } from './shared/cms-card/cms-card.component';
+import { DashboardComponent } from './components/dashboard/dashboard.component';
+import { AlertsComponent } from './components/alerts/alerts.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    CmsCardComponent,
+    DashboardComponent,
+    AlertsComponent
   ],
   imports: [
     BrowserModule,
