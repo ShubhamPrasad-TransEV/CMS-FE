@@ -15,6 +15,9 @@ import { CheckboxModule } from 'primeng/checkbox';
 import { RadioButtonModule } from 'primeng/radiobutton';
 import { DropdownModule } from 'primeng/dropdown';
 
+// PrimeNg Layout
+import { AppLayoutModule } from './layout/app.layout.module';
+
 @NgModule({
   declarations: [
     AppComponent
@@ -29,7 +32,8 @@ import { DropdownModule } from 'primeng/dropdown';
     ButtonModule,
     CheckboxModule,
     RadioButtonModule,
-    DropdownModule
+    DropdownModule,
+    AppLayoutModule
   ],
   providers: [],
   bootstrap: [AppComponent]
